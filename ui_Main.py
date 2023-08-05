@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'FrontEndjrAtMu.ui'
+## Form generated from reading UI file 'FrontEndJshHXc.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.5.2
 ##
@@ -375,7 +375,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_11 = QVBoxLayout(self.tablePage)
         self.verticalLayout_11.setSpacing(0)
         self.verticalLayout_11.setObjectName(u"verticalLayout_11")
-        self.verticalLayout_11.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_11.setContentsMargins(9, 0, 0, 0)
         self.tablePageHeader = QFrame(self.tablePage)
         self.tablePageHeader.setObjectName(u"tablePageHeader")
         self.tablePageHeader.setStyleSheet(u"")
@@ -383,7 +383,7 @@ class Ui_MainWindow(object):
         self.tablePageHeader.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_4 = QHBoxLayout(self.tablePageHeader)
         self.horizontalLayout_4.setObjectName(u"horizontalLayout_4")
-        self.horizontalLayout_4.setContentsMargins(9, -1, -1, -1)
+        self.horizontalLayout_4.setContentsMargins(0, -1, -1, -1)
         self.tablePageLabel = QPushButton(self.tablePageHeader)
         self.tablePageLabel.setObjectName(u"tablePageLabel")
         self.tablePageLabel.setMinimumSize(QSize(270, 50))
@@ -410,6 +410,7 @@ class Ui_MainWindow(object):
         self.tablePageContent.setFrameShadow(QFrame.Raised)
         self.verticalLayout_16 = QVBoxLayout(self.tablePageContent)
         self.verticalLayout_16.setObjectName(u"verticalLayout_16")
+        self.verticalLayout_16.setContentsMargins(9, -1, -1, -1)
         self.table = QTableWidget(self.tablePageContent)
         if (self.table.columnCount() < 5):
             self.table.setColumnCount(5)
@@ -487,7 +488,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_12 = QVBoxLayout(self.chartPage)
         self.verticalLayout_12.setSpacing(0)
         self.verticalLayout_12.setObjectName(u"verticalLayout_12")
-        self.verticalLayout_12.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_12.setContentsMargins(9, 0, 0, 0)
         self.chartPageHeader = QFrame(self.chartPage)
         self.chartPageHeader.setObjectName(u"chartPageHeader")
         self.chartPageHeader.setFont(font3)
@@ -496,7 +497,7 @@ class Ui_MainWindow(object):
         self.chartPageHeader.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_5 = QHBoxLayout(self.chartPageHeader)
         self.horizontalLayout_5.setObjectName(u"horizontalLayout_5")
-        self.horizontalLayout_5.setContentsMargins(9, -1, -1, -1)
+        self.horizontalLayout_5.setContentsMargins(0, -1, -1, -1)
         self.chartPageLabel = QPushButton(self.chartPageHeader)
         self.chartPageLabel.setObjectName(u"chartPageLabel")
         self.chartPageLabel.setMinimumSize(QSize(270, 50))

@@ -52,6 +52,25 @@
 	"QStackedWidget":[
 		{
 			"name":"mainPages",
+            "transitionAnimation":[
+                {
+                    "fade":[
+                        {
+                            "active": true,
+                            "duration": 1000,
+                            "easingCurve": "OutBack"
+                        }
+                    ],
+                    "slide":[
+                        {
+                            "active": true,
+                            "duration": 1000,
+                            "direction": "horizontal",
+                            "easingCurve": "OutBack"                            
+                        }
+                    ]
+                }
+            ],
 			"navigation":[
 				{
 					"navigationButtons":[
@@ -64,22 +83,5 @@
 				}
 			]
 		}      
-	],
-
-	"QPushButtonGroup": [
-        {
-            "Buttons": [
-                "chartBtn",
-                "tableBtn",
-                "settingsBtn",
-                "likeBtn"
-            ],
-            "Style":[
-                    {
-                    "Active": "background-color: #293241; color: #FFE302; border-radius: 10px;",
-                    "NotActive": ""
-                }
-            ]
-        }
-    ]
+	]
 }

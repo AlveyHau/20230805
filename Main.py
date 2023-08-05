@@ -10,33 +10,6 @@ from PySide6.QtWidgets import (QApplication, QMainWindow, QPushButton, QSizePoli
 
 
 
-# import pandas # import pandas library
-# import csv # import csv module in Python
-
-
-## IMPORT PYSIDE
-# from PySide2.QtGui import QPainter
-# from PySide2.QtCharts import QtCharts
-
-
-
-
-# globals()[f'imgPath_dictionary'] = {'structurePicture': "resources/images/no-image.png",
-#                                     'servicePicture_S1': "resources/images/no-image.png",
-#                                     'servicePicture_S2': "resources/images/no-image.png",
-#                                     'zonePicture_Z1': "resources/images/no-image.png",
-#                                     'zonePicture_Z2': "resources/images/no-image.png",
-#                                     'zonePicture_Z3': "resources/images/no-image.png",
-#                                     'zonePicture_Z4': "resources/images/no-image.png",
-#                                     'zonePicture_Z5': "resources/images/no-image.png"}
-
-
-
-
-
-
-
-
 ## 1. MAIN WINDOW CLASS
 class MainWindow(QMainWindow):
     def __init__(self):
