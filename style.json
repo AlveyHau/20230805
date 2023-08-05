@@ -41,6 +41,9 @@
                 "width": 160,
                 "height": 530
             }],
+            "toggleButton": [{
+                "buttonName": "likeBtn"
+            }],
             "menuTransitionAnimation": [{
                 "animationDuration": 200,
                 "animationEasingCurve": "Linear"
