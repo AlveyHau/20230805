@@ -1,0 +1,85 @@
+{
+	"QCustomSlideMenu": [
+        {
+            "name": "leftMenuContainer",
+            "defaultSize": [{
+                "width": 45,
+                "height": 530
+            }],
+            "collapsedSize": [{
+                "width": 45,
+                "height": 530
+            }],
+            "expandedSize": [{
+                "width": 135,
+                "height": 530
+            }],
+            "toggleButton": [{
+                "buttonName": "menuBtn",
+                "icons": [{
+                    "whenMenuIsCollapsed": "./resources/menuExpandBtn1.png",
+                    "whenMenuIsExpanded": "./resources/menuExpandBtn2.png"
+                }]
+            }],
+            "menuTransitionAnimation": [{
+                "animationDuration": 200,
+                "animationEasingCurve": "Linear"
+            }]
+        },
+
+        {
+            "name": "centerMenuContainer",
+            "defaultSize": [{
+                "width": 0,
+                "height": 530
+            }],
+            "collapsedSize": [{
+                "width": 0,
+                "height": 530
+            }],
+            "expandedSize": [{
+                "width": 160,
+                "height": 530
+            }],
+            "menuTransitionAnimation": [{
+                "animationDuration": 200,
+                "animationEasingCurve": "Linear"
+            }]
+        }
+    ],
+
+
+	"QStackedWidget":[
+		{
+			"name":"mainPages",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"settingsBtn": "settingPage",
+							"chartBtn": "chartPage",
+                            "tableBtn": "tablePage"
+						}
+					]
+				}
+			]
+		}      
+	],
+
+	"QPushButtonGroup": [
+        {
+            "Buttons": [
+                "chartBtn",
+                "tableBtn",
+                "settingsBtn",
+                "likeBtn"
+            ],
+            "Style":[
+                    {
+                    "Active": "background-color: #293241; color: #FFE302; border-radius: 10px;",
+                    "NotActive": ""
+                }
+            ]
+        }
+    ]
+}
